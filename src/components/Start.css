@@ -1,0 +1,74 @@
+.maze-background{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.start-wrapper{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.start-info{
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 50px;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 600px;
+  max-width: 600px;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.start-info h1{
+  font-family: Gloria Hallelujah, cursive;
+  font-size: 50px;
+}
+
+form{
+  margin-top: 30px;
+  text-align: start; 
+}
+
+.enter{
+  font-size: 14px;
+}
+
+input{
+  border-radius: 8px;
+  font-size: 16px;
+  height: 32px;
+  margin-right: 7px;
+  padding: 2px 5px;
+}
+
+.submit-btn{
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(97, 70, 65);
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width:667px) and (max-width:1024px){
+
+
+}
+
+@media (min-width:1025px){
+
+}
